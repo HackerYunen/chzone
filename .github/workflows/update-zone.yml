@@ -27,8 +27,8 @@ jobs:
       # commit back to repo
       - name: Commit new domains
         run: |
-          git config --global user.name 'Antoine Neuenschwander'
-          git config --global user.email 'antoine@schoggi.org'
+          git config --global user.name 'HackerYunen'
+          git config --global user.email '2865859175@qq.com'
           git add ch_uniq.txt
           git commit -m $(head -1 ch.txt | awk '{print $7}')
           git push
